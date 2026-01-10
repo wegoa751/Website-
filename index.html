@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GlobeQuest Tours</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #f7f9fc;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0f172a;
+      padding: 15px 30px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: #38bdf8;
+      font-size: 1.4rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .menu a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+      opacity: 0.8;
+    }
+
+    .menu a:hover {
+      opacity: 1;
+      color: #38bdf8;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.6rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      background: linear-gradient(135deg, #38bdf8, #2563eb);
+      color: white;
+      padding: 12px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-block;
+    }
+
+    .highlights h2,
+    .page-hero h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      text-align: center;
+      padding: 15px 20px 5px;
+    }
+
+    .card p {
+      text-align: center;
+      padding: 0 20px 20px;
+      color: #555;
+    }
+
+    .page-hero {
+      text-align: center;
+      padding-top: 40px;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .contact-form label {
+      text-align: center;
+      display: block;
+      margin-bottom: 15px;
+      font-weight: 500;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    .contact-info {
+      background: #0f172a;
+      color: white;
+      padding: 30px;
+      border-radius: 16px;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #0f172a;
+      color: #aaa;
+      margin-top: 60px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <a href="#home" class="logo">We Go Andaman Tours & Holidays</a>
+    <div class="menu">
+      <a href="#home">Home</a>
+    </div>
+  </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="hero">
+  <h1>Discover Your Next Adventure</h1>
+  <p>From tropical beaches to mountain trails, we craft journeys that inspire.</p>
+  <a href="#contact" class="btn">Plan Your Trip</a>
+</section>
+
+<section class="highlights">
+  <h2>Water Activities Awaits</h2>
+  <div class="grid-2">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop">
+      <h3>Island Bliss</h3>
+      <p>Relax on pristine shores and dive into coral reefs.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1200&auto=format&fit=crop">
+      <h3>Highland Trails</h3>
+      <p>Guided treks through alpine valleys and starry nights.</p>
+    </div>
+  </div>
+</section>
+
+<section class="highlights">
+  <h2>Island Hopping</h2>
+  <div class="grid-2">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop">
+      <h3>Island Bliss</h3>
+      <p>Relax on pristine shores and dive into coral reefs.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1200&auto=format&fit=crop">
+      <h3>Highland Trails</h3>
+      <p>Guided treks through alpine valleys and starry nights.</p>
+    </div>
+  </div>
+</section>
+
+<section class="highlights">
+  <h2>Honeymoon Speciality</h2>
+  <div class="grid-2">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop">
+      <h3>Island Bliss</h3>
+      <p>Relax on pristine shores and dive into coral reefs.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1200&auto=format&fit=crop">
+      <h3>Highland Trails</h3>
+      <p>Guided treks through alpine valleys and starry nights.</p>
+    </div>
+  </div>
+</section>
+
+<section class="highlights">
+  <h2>Exotic Hotel Stay</h2>
+  <div class="grid-2">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop">
+      <h3>Island Bliss</h3>
+      <p>Relax on pristine shores and dive into coral reefs.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1200&auto=format&fit=crop">
+      <h3>Highland Trails</h3>
+      <p>Guided treks through alpine valleys and starry nights.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="page-hero">
+    <h1>Let’s Plan Your Trip</h1>
+    <p>Fill out the form and we’ll get back with a custom itinerary.</p>
+  </div>
+
+  <div class="contact-grid">
+    <form class="contact-form">
+      <label>Name
+        <input type="text" required>
+      </label>
+      <label>Email
+        <input type="email" required>
+      </label>
+      <label>Additional Message
+        <textarea rows="4"></textarea>
+      </label>
+      <button class="btn">Request Quote</button>
+    </form>
+
+    <aside class="contact-info">
+      <h3>Our Office</h3>
+      <p>Upper, Kali Mandir Rd, near Ambika Residency, Junglighat, Sri Vijaya Puram, Andaman & Nicobar Island - 744102</p>
+<br>
+      <p>Email: infowegoandaman@gmail.com </p>
+<br>
+      <p>Phone: 9332687701</p>
+
+    </aside>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 We Go Andaman Tours & Holidays</p>
+</footer>
+
+</body>
+</html>
+
