@@ -31,7 +31,7 @@ body {
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: url('1.jpg') center/cover no-repeat;
+  background: url('2.jpg') center/cover no-repeat;
   color: #fff;
 }
 .hero h1 { font-size: 2.5rem; }
